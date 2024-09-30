@@ -1,0 +1,148 @@
+CRITICAL - 2024-02-28 04:11:40 --> unlink(C:\xampp\htdocs\IT_form_management\writable\debugbar/debugbar_1709115019.842484.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\IT_form_management\\writable\\debugbar/debugbar_1709115019.842484.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1709115019.842484.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(501): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1709115099.425986', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(478): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(326): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 04:11:40 --> unlink(C:\xampp\htdocs\IT_form_management\writable\debugbar/debugbar_1709115019.842484.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\IT_form_management\\writable\\debugbar/debugbar_1709115019.842484.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1709115019.842484.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(501): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1709115098.444979', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(478): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(326): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:11:14 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:13:07 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:13:43 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:13:44 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:13:44 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:13:45 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:13:58 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:13:59 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:14:00 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:14:27 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 05:14:28 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\login\login.php on line 32.
+ 1 APPPATH\Views\login\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\login\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(26): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-28 23:50:48 --> Attempt to read property "u_fname" on null
+in APPPATH\Controllers\Login.php on line 52.
+ 1 APPPATH\Controllers\Login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "u_fname" on null', 'APPPATH\\Controllers\\Login.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

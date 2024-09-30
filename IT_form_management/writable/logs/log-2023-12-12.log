@@ -1,0 +1,306 @@
+CRITICAL - 2023-12-12 01:07:29 --> Unmatched '}'
+in APPPATH\Controllers\Rolemanagement.php on line 108.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Rolemanagement.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Rolemanagement')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Rolemanagement')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Rolemanagement', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 01:08:13 --> Invalid file: rolemodel/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolemodel/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemodel/view', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(102): view('rolemodel/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->viewrolemodel()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 01:10:24 --> Invalid file: rolemodel/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolemodel/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemodel/view', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(102): view('rolemodel/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->viewrolemodel()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 01:12:22 --> Invalid file: rolemodel/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolemodel/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemodel/view', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(102): view('rolemodel/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->viewrolemodel()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 01:17:19 --> Invalid file: rolemodel/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolemodel/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemodel/view', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(102): view('rolemodel/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->viewrolemodel()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 01:17:25 --> Invalid file: rolemodel/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolemodel/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemodel/view', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(102): view('rolemodel/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->viewrolemodel()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 01:46:51 --> Invalid file: rolemodel/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolemodel/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemodel/view', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(102): view('rolemodel/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->viewrolemodel()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 01:50:50 --> Invalid file: rolemodel/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rolemodel/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemodel/view', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(102): view('rolemodel/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->viewrolemodel()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:01:32 --> Undefined property: App\Controllers\Rolemanagement::$bill
+in APPPATH\Controllers\Rolemanagement.php on line 77.
+ 1 APPPATH\Controllers\Rolemanagement.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Rolemanagement::$bill', 'APPPATH\\Controllers\\Rolemanagement.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:01:57 --> Call to undefined method App\Models\RoleModel::retrieve_all_bcat_list
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Rolemanagement.php(77): CodeIgniter\Model->__call('retrieve_all_bcat_list', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:02:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\RoleModel.php on line 37.
+ 1 APPPATH\Controllers\Rolemanagement.php(77): App\Models\RoleModel->getallRole()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:03:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\RoleModel.php on line 38.
+ 1 APPPATH\Controllers\Rolemanagement.php(77): App\Models\RoleModel->getallRole()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:04:18 --> Call to a member function num_rows() on array
+in APPPATH\Models\RoleModel.php on line 40.
+ 1 APPPATH\Controllers\Rolemanagement.php(77): App\Models\RoleModel->getallRole()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:14:59 --> Call to a member function num_rows() on array
+in APPPATH\Models\RoleModel.php on line 39.
+ 1 APPPATH\Controllers\Rolemanagement.php(77): App\Models\RoleModel->getallRole()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:16:18 --> Call to a member function result() on array
+in APPPATH\Models\RoleModel.php on line 43.
+ 1 APPPATH\Controllers\Rolemanagement.php(77): App\Models\RoleModel->getallRole()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:33:27 --> Undefined variable $datasearch_by_Id
+in APPPATH\Views\rolemanagement\rolemodel.php on line 44.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datasearch_by_Id', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:35:56 --> Undefined variable $datasearch_by_Id
+in APPPATH\Views\rolemanagement\rolemodel.php on line 44.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datasearch_by_Id', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:40:25 --> Undefined variable $getrole
+in APPPATH\Views\rolemanagement\rolemodel.php on line 44.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getrole', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:46:22 --> Undefined variable $datasearch_by_Id
+in APPPATH\Views\rolemanagement\rolemodel.php on line 44.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datasearch_by_Id', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:46:45 --> Undefined variable $user_roles
+in APPPATH\Views\rolemanagement\rolemodel.php on line 45.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_roles', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:47:39 --> Undefined variable $edtrolelist
+in APPPATH\Views\rolemanagement\rolemodel.php on line 69.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edtrolelist', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:48:03 --> Undefined variable $edtrolelist
+in APPPATH\Views\rolemanagement\rolemodel.php on line 69.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edtrolelist', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:48:39 --> Undefined variable $edtrolelist
+in APPPATH\Views\rolemanagement\rolemodel.php on line 69.
+ 1 APPPATH\Views\rolemanagement\rolemodel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edtrolelist', 'APPPATH\\Views\\rolemanagement\\rolemodel.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\rolemodel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 03:49:43 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\rolemanagement\rolemodel.php on line 74.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/rolemodel', [], true)
+ 3 APPPATH\Controllers\Rolemanagement.php(81): view('rolemanagement/rolemodel', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrole()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 04:04:37 --> Call to undefined method App\Models\RoleModel::getRole
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Rolemanagement.php(56): CodeIgniter\Model->__call('getRole', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrolelisttoedit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 04:05:24 --> Call to undefined method App\Models\RoleModel::getRole
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Rolemanagement.php(67): CodeIgniter\Model->__call('getRole', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrolelist()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 04:06:57 --> Attempt to read property "roleid" on string
+in APPPATH\Views\rolemanagement\addrole.php on line 66.
+ 1 APPPATH\Views\rolemanagement\addrole.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roleid" on string', 'APPPATH\\Views\\rolemanagement\\addrole.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\addrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/addrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(72): view('rolemanagement/addrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrolelist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 04:07:02 --> Attempt to read property "roleid" on string
+in APPPATH\Views\rolemanagement\editrole.php on line 71.
+ 1 APPPATH\Views\rolemanagement\editrole.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roleid" on string', 'APPPATH\\Views\\rolemanagement\\editrole.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\editrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/editrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(61): view('rolemanagement/editrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrolelisttoedit()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 04:33:24 --> mysqli_sql_exception: Unknown column 'userrolemaster.id' in 'on clause' in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `roleper...', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roleper...')
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roleper...')
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `roleper...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\app\Models\RolepermissionsModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\IT_form_management\app\Controllers\Login.php(48): App\Models\RolepermissionsModel->getRolePermissions('1')
+#6 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Login->login()
+#7 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-12 04:33:24 --> Unknown column 'userrolemaster.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `rolepermissionmng`.`id`, `rolepermissionmng`.`role_id`, `rolepermissionmng`.`per_id`, `userrolemaster`.`rolename`, `permissionmaster`.`featurename`, `rolepermissionmng`.`is_access`
+FROM `rolepermissionmng`
+JOIN `userrolemaster` ON `userrolemaster`.`id` = `rolepermissionmng`.`role_id`
+JOIN `permissionmaster` ON `permissionmaster`.`id` = `rolepermissionmng`.`per_id`
+WHERE `rolepermissionmng`.`role_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rolepermissionmng`.`id`, `rolepermissionmng`.`role_id`, `rolepermissionmng`.`per_id`, `userrolemaster`.`rolename`, `permissionmaster`.`featurename`, `rolepermissionmng`.`is_access`
+FROM `rolepermissionmng`
+JOIN `userrolemaster` ON `userrolemaster`.`id` = `rolepermissionmng`.`role_id`
+JOIN `permissionmaster` ON `permissionmaster`.`id` = `rolepermissionmng`.`per_id`
+WHERE `rolepermissionmng`.`role_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rolepermissionmng`.`id`, `rolepermissionmng`.`role_id`, `rolepermissionmng`.`per_id`, `userrolemaster`.`rolename`, `permissionmaster`.`featurename`, `rolepermissionmng`.`is_access`
+FROM `rolepermissionmng`
+JOIN `userrolemaster` ON `userrolemaster`.`id` = `rolepermissionmng`.`role_id`
+JOIN `permissionmaster` ON `permissionmaster`.`id` = `rolepermissionmng`.`per_id`
+WHERE `rolepermissionmng`.`role_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `rolepermissionmng`.`id`, `rolepermissionmng`.`role_id`, `rolepermissionmng`.`per_id`, `userrolemaster`.`rolename`, `permissionmaster`.`featurename`, `rolepermissionmng`.`is_access`
+FROM `rolepermissionmng`
+JOIN `userrolemaster` ON `userrolemaster`.`id` = `rolepermissionmng`.`role_id`
+JOIN `permissionmaster` ON `permissionmaster`.`id` = `rolepermissionmng`.`per_id`
+WHERE `rolepermissionmng`.`role_id` = :rolepermissionmng.role_id:', [...], false)
+ 5 APPPATH\Models\RolepermissionsModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(48): App\Models\RolepermissionsModel->getRolePermissions('1')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:25:25 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\rolemanagement\addrole.php on line 64.
+ 1 APPPATH\Views\rolemanagement\addrole.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\rolemanagement\\addrole.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rolemanagement\\addrole.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rolemanagement/addrole', [], true)
+ 5 APPPATH\Controllers\Rolemanagement.php(72): view('rolemanagement/addrole', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Rolemanagement->getrolelist()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rolemanagement))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

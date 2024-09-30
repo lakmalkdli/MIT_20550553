@@ -1,0 +1,16 @@
+ERROR - 2024-03-09 23:46:16 --> mysqli_sql_exception: Unknown column 'fname' in 'field list' in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IT_form_management\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IT_form_management\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\IT_form_management\app\Models\UserModel.php(79): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\IT_form_management\app\Controllers\Usermanagement.php(140): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+#10 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+#11 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}

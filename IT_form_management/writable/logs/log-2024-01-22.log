@@ -1,0 +1,24 @@
+CRITICAL - 2024-01-22 02:34:58 --> Class "APP\Models\RoleModel" not found
+in APPPATH\Controllers\Firewallrequest.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 22:22:31 --> Class "APP\Models\RoleModel" not found
+in APPPATH\Controllers\Firewallrequest.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 22:34:06 --> Class "APP\Models\RoleModel" not found
+in APPPATH\Controllers\Firewallrequest.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 22:34:10 --> Class "APP\Models\RoleModel" not found
+in APPPATH\Controllers\Firewallrequest.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

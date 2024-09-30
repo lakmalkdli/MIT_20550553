@@ -1,0 +1,14 @@
+CRITICAL - 2024-03-01 23:02:21 --> Attempt to read property "u_fname" on null
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "u_fname" on null', 'APPPATH\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 23:02:46 --> Attempt to read property "u_fname" on null
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "u_fname" on null', 'APPPATH\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

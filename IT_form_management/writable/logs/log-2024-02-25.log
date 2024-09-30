@@ -1,0 +1,63 @@
+CRITICAL - 2024-02-25 03:27:50 --> Call to a member function getdetailreqlist() on null
+in APPPATH\Controllers\Reportmanager.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Reportmanager->vaassesmentreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportmanager))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 03:29:30 --> Call to a member function getdetailreqlist() on null
+in APPPATH\Controllers\Reportmanager.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Reportmanager->vaassesmentreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportmanager))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 03:29:33 --> Call to a member function getdetailreqlist() on null
+in APPPATH\Controllers\Reportmanager.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Reportmanager->vaassesmentreport()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportmanager))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 03:49:11 --> Class "App\Models\PwdmngreportModel" not found
+in APPPATH\Controllers\Reportmanager.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Reportmanager->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 03:49:13 --> Class "App\Models\PwdmngreportModel" not found
+in APPPATH\Controllers\Reportmanager.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Reportmanager->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 05:07:22 --> Undefined variable $pwdreqdata
+in APPPATH\Views\reports\vadetailreport.php on line 67.
+ 1 APPPATH\Views\reports\vadetailreport.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pwdreqdata', 'APPPATH\\Views\\reports\\vadetailreport.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reports\\vadetailreport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reports/vadetailreport', [], true)
+ 5 APPPATH\Controllers\Reportmanager.php(44): view('reports/vadetailreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Reportmanager->vaassesmentreport()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportmanager))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 05:27:36 --> Undefined variable $vareqdata
+in APPPATH\Views\reports\vadetailreport.php on line 67.
+ 1 APPPATH\Views\reports\vadetailreport.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vareqdata', 'APPPATH\\Views\\reports\\vadetailreport.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reports\\vadetailreport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reports/vadetailreport', [], true)
+ 5 APPPATH\Controllers\Reportmanager.php(77): view('reports/vadetailreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Reportmanager->unitwiseuserreport()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportmanager))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-25 05:28:21 --> Undefined property: stdClass::$Lakmal
+in APPPATH\Views\reports\userdetailunitwisereport.php on line 69.
+ 1 APPPATH\Views\reports\userdetailunitwisereport.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Lakmal', 'APPPATH\\Views\\reports\\userdetailunitwisereport.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reports\\userdetailunitwisereport.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reports/userdetailunitwisereport', [], true)
+ 5 APPPATH\Controllers\Reportmanager.php(77): view('reports/userdetailunitwisereport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Reportmanager->unitwiseuserreport()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportmanager))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

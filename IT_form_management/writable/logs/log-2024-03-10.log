@@ -1,0 +1,720 @@
+CRITICAL - 2024-03-10 00:23:55 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 00:24:02 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-10 00:24:07 --> mysqli_sql_exception: Unknown column 'fname' in 'field list' in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IT_form_management\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IT_form_management\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\IT_form_management\app\Models\UserModel.php(79): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\IT_form_management\app\Controllers\Usermanagement.php(163): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+#10 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+#11 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-10 00:48:33 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 00:48:48 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 00:50:04 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 00:50:06 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 00:50:07 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:25:07 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:25:19 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:26:48 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:26:49 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:26:50 --> Undefined property: stdClass::$role
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:50:11 --> Undefined variable $id
+in APPPATH\Controllers\Usermanagement.php on line 41.
+ 1 APPPATH\Controllers\Usermanagement.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Usermanagement.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->adduserload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:52:06 --> Undefined variable $id
+in APPPATH\Controllers\Usermanagement.php on line 41.
+ 1 APPPATH\Controllers\Usermanagement.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Usermanagement.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->adduserload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:52:14 --> Undefined variable $id
+in APPPATH\Controllers\Usermanagement.php on line 41.
+ 1 APPPATH\Controllers\Usermanagement.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Usermanagement.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->adduserload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:56:58 --> Undefined variable $id
+in APPPATH\Controllers\Usermanagement.php on line 41.
+ 1 APPPATH\Controllers\Usermanagement.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Usermanagement.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->adduserload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:57:10 --> Undefined variable $id
+in APPPATH\Controllers\Usermanagement.php on line 41.
+ 1 APPPATH\Controllers\Usermanagement.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Usermanagement.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->adduserload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:57:11 --> Undefined variable $id
+in APPPATH\Controllers\Usermanagement.php on line 41.
+ 1 APPPATH\Controllers\Usermanagement.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Usermanagement.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->adduserload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 01:57:12 --> Undefined variable $id
+in APPPATH\Controllers\Usermanagement.php on line 41.
+ 1 APPPATH\Controllers\Usermanagement.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Usermanagement.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->adduserload()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-10 04:10:00 --> mysqli_sql_exception: Unknown column 'fname' in 'field list' in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IT_form_management\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IT_form_management\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\IT_form_management\app\Models\UserModel.php(84): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\IT_form_management\app\Controllers\Usermanagement.php(171): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+#10 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+#11 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-03-10 04:10:13 --> mysqli_sql_exception: Unknown column 'fname' in 'field list' in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IT_form_management\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IT_form_management\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\IT_form_management\app\Models\UserModel.php(84): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\IT_form_management\app\Controllers\Usermanagement.php(171): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+#10 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+#11 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-03-10 04:10:15 --> mysqli_sql_exception: Unknown column 'fname' in 'field list' in C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IT_form_management\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\IT_form_management\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\IT_form_management\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\IT_form_management\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\IT_form_management\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\IT_form_management\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\IT_form_management\app\Models\UserModel.php(84): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\IT_form_management\app\Controllers\Usermanagement.php(171): App\Models\UserModel->saveUser(Array)
+#9 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+#10 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+#11 C:\xampp\htdocs\IT_form_management\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\IT_form_management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-10 06:01:19 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:01:39 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:01:47 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:02:59 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:04:48 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:04:56 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:20:30 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:20:32 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:20:32 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:21:00 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:21:00 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:21:01 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:21:01 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:21:01 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:22:20 --> Undefined variable $existingUser
+in APPPATH\Controllers\Usermanagement.php on line 80.
+ 1 APPPATH\Controllers\Usermanagement.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existingUser', 'APPPATH\\Controllers\\Usermanagement.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:24:17 --> Undefined variable $existingUser
+in APPPATH\Controllers\Usermanagement.php on line 80.
+ 1 APPPATH\Controllers\Usermanagement.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existingUser', 'APPPATH\\Controllers\\Usermanagement.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:16 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:19 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:22 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:22 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:22 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:23 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:23 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:23 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:28:29 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(78): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:30:01 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(80): App\Models\UserModel->findUserBypfno('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:31:34 --> syntax error, unexpected identifier "about", expecting "function" or "const"
+in APPPATH\Controllers\Usermanagement.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usermanagement.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Usermanagement')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Usermanagement')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Usermanagement', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:31:47 --> syntax error, unexpected identifier "about", expecting "function" or "const"
+in APPPATH\Controllers\Usermanagement.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usermanagement.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Usermanagement')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Usermanagement')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Usermanagement', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:31:49 --> syntax error, unexpected identifier "about", expecting "function" or "const"
+in APPPATH\Controllers\Usermanagement.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usermanagement.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Usermanagement')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Usermanagement')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Usermanagement', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:32:31 --> Undefined variable $p
+in APPPATH\Controllers\Usermanagement.php on line 78.
+ 1 APPPATH\Controllers\Usermanagement.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'APPPATH\\Controllers\\Usermanagement.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:32:32 --> Undefined variable $p
+in APPPATH\Controllers\Usermanagement.php on line 78.
+ 1 APPPATH\Controllers\Usermanagement.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'APPPATH\\Controllers\\Usermanagement.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 06:32:32 --> Undefined variable $p
+in APPPATH\Controllers\Usermanagement.php on line 78.
+ 1 APPPATH\Controllers\Usermanagement.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'APPPATH\\Controllers\\Usermanagement.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:06:06 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:06:25 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:06:28 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:08:23 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:08:34 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:08:42 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:08:43 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:08:54 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:09:09 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:09:10 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:09:12 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:09:12 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:09:25 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:09:27 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:10:02 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:10:05 --> Undefined variable $existinguser
+in APPPATH\Controllers\Usermanagement.php on line 187.
+ 1 APPPATH\Controllers\Usermanagement.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $existinguser', 'APPPATH\\Controllers\\Usermanagement.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:12:11 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:12:15 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:12:27 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:14:23 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:14:28 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:16:46 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:16:57 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(184): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:22:51 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(158): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:22:53 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(158): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:23:03 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(158): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:23:28 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(158): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:23:28 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(158): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 07:23:45 --> Undefined variable $id
+in APPPATH\Models\UserModel.php on line 89.
+ 1 APPPATH\Models\UserModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\UserModel.php', 89)
+ 2 APPPATH\Controllers\Usermanagement.php(158): App\Models\UserModel->findUserBypfno('207391')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 10:31:15 --> Array to string conversion
+in APPPATH\Controllers\Usermanagement.php on line 159.
+ 1 APPPATH\Controllers\Usermanagement.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Usermanagement.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 10:31:16 --> Array to string conversion
+in APPPATH\Controllers\Usermanagement.php on line 159.
+ 1 APPPATH\Controllers\Usermanagement.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Usermanagement.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 10:31:17 --> Array to string conversion
+in APPPATH\Controllers\Usermanagement.php on line 159.
+ 1 APPPATH\Controllers\Usermanagement.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Usermanagement.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 10:31:17 --> Array to string conversion
+in APPPATH\Controllers\Usermanagement.php on line 159.
+ 1 APPPATH\Controllers\Usermanagement.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Usermanagement.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 10:31:17 --> Array to string conversion
+in APPPATH\Controllers\Usermanagement.php on line 159.
+ 1 APPPATH\Controllers\Usermanagement.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Usermanagement.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 10:31:18 --> Array to string conversion
+in APPPATH\Controllers\Usermanagement.php on line 159.
+ 1 APPPATH\Controllers\Usermanagement.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Usermanagement.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 10:31:18 --> Array to string conversion
+in APPPATH\Controllers\Usermanagement.php on line 159.
+ 1 APPPATH\Controllers\Usermanagement.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Usermanagement.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Usermanagement->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usermanagement))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

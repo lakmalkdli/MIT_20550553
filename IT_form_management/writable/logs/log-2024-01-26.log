@@ -1,0 +1,55 @@
+CRITICAL - 2024-01-26 07:09:21 --> Undefined variable $userlists
+in APPPATH\Views\firewallrequest\addnew.php on line 341.
+ 1 APPPATH\Views\firewallrequest\addnew.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlists', 'APPPATH\\Views\\firewallrequest\\addnew.php', 341)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/addnew', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(33): view('firewallrequest/addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 07:11:16 --> Undefined variable $userlists
+in APPPATH\Views\firewallrequest\addnew.php on line 341.
+ 1 APPPATH\Views\firewallrequest\addnew.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlists', 'APPPATH\\Views\\firewallrequest\\addnew.php', 341)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/addnew', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(33): view('firewallrequest/addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 07:12:32 --> Undefined variable $userlists
+in APPPATH\Views\firewallrequest\addnew.php on line 341.
+ 1 APPPATH\Views\firewallrequest\addnew.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlists', 'APPPATH\\Views\\firewallrequest\\addnew.php', 341)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/addnew', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(33): view('firewallrequest/addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 07:17:35 --> Undefined variable $data
+in APPPATH\Views\firewallrequest\addnew.php on line 340.
+ 1 APPPATH\Views\firewallrequest\addnew.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\firewallrequest\\addnew.php', 340)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/addnew', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(33): view('firewallrequest/addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 07:17:37 --> Undefined variable $data
+in APPPATH\Views\firewallrequest\addnew.php on line 340.
+ 1 APPPATH\Views\firewallrequest\addnew.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\firewallrequest\\addnew.php', 340)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/addnew', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(33): view('firewallrequest/addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,22 @@
+CRITICAL - 2024-01-29 00:00:58 --> Undefined variable $data
+in APPPATH\Views\firewallrequest\addnew.php on line 339.
+ 1 APPPATH\Views\firewallrequest\addnew.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\firewallrequest\\addnew.php', 339)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/addnew', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(33): view('firewallrequest/addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-29 00:19:59 --> Undefined variable $userlists
+in APPPATH\Views\firewallrequest\addnew.php on line 120.
+ 1 APPPATH\Views\firewallrequest\addnew.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userlists', 'APPPATH\\Views\\firewallrequest\\addnew.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\firewallrequest\\addnew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('firewallrequest/addnew', [], true)
+ 5 APPPATH\Controllers\Firewallrequest.php(33): view('firewallrequest/addnew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Firewallrequest->addnew()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Firewallrequest))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
